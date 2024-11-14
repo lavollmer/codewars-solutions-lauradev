@@ -1,0 +1,21 @@
+# L1: Set Alarm
+
+## Question
+
+Write a function named setAlarm/set_alarm/set-alarm/setalarm (depending on language) which receives two parameters. The first parameter, employed, is true whenever you are employed and the second parameter, vacation is true whenever you are on vacation.
+
+The function should return true if you are employed and not on vacation (because these are the circumstances under which you need to set an alarm). It should return false otherwise. 
+
+## Thought Process Laura Dev
+
+1. Have two parameters/inputs - employed and vacation
+2. Return true if you are employed and not on vacation
+3. Return false otherwise
+    - On vacation, employed
+    - On vacation, not employed
+    - Not on vacation, not employed
+
+## Solution
+
+Create a return statement that includes the only logical TRUE statement based on the question. Because you only return this, than everything else will return FALSE. 
+
