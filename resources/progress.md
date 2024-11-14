@@ -22,12 +22,32 @@
   - Reflections: 
 
 ### 8kyu:
+- **[L1:Set Alarm](url)**  
+  - Time Spent: 15 minutes
+  - Approach: Review the logic of the answer being true
+  - Reflections: Using arrow functions for single expression and implicit return, the question only had one outcome for it to return TRUE and everything else would return FALSE
+
 - **[PROBLEM NAME](url)**  
   - Time Spent: 
   - Approach: 
   - Reflections: 
 
 ### 7kyu:
+- **[Binary Addition](https://www.codewars.com/kata/551f37452ff852b7bd000139/solutions/javascript)**  
+  - Time Spent: 10 minutes
+  - Approach: Reviewed how to change a string to a number, and then change to binary representation.
+  - Reflections: Use method `Number()` to change a string to a number, use `.toString(2)` to change a number data type to binary representation by specifying the base of 2 (binary).
+
+- **[PROBLEM NAME](url)**  
+  - Time Spent: 
+  - Approach: 
+  - Reflections: 
+
+- **[PROBLEM NAME](url)**  
+  - Time Spent: 
+  - Approach: 
+  - Reflections: 
+
 - **[PROBLEM NAME](url)**  
   - Time Spent: 
   - Approach: 
