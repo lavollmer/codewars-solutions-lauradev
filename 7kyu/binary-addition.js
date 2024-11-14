@@ -1,0 +1,4 @@
+
+function binary(a,b) {
+
+}
