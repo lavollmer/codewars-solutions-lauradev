@@ -19,3 +19,11 @@ The function should return true if you are employed and not on vacation (because
 
 Create a return statement that includes the only logical TRUE statement based on the question. Because you only return this, than everything else will return FALSE. 
 
+## Key Learnings
+
+There were a couple ways to solve this problem. Another way would be to use an arrow function with a single expression and no return statement. 
+
+Example:
+`const alarm = (employed, vacation) => !vacation && employed;`
+
+The above is considered an arrow function with implicit return. This means that the arrow function has two parameters in the body of the code, an arrow, then the expression to return. The code will automatically return the outcome without a return statement. Arrow functions are usually assigned to the variable `const` in order for developers to predict its outcome, prevents mutations and reassignment accidentals. 
