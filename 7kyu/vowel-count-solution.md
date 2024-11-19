@@ -46,4 +46,5 @@ function getCount(str) {
 
 ## Key Learnings
 
+The key learnings from this question were to create a global scope variable to hold the count. The for loop ran through each character to check with if statements surrounding the vowels. The for loop was checking each character and incrementing by one character. There were no edge cases to account for in this problem.
 
