@@ -20,6 +20,29 @@ The input string will only consist of lower case letters and/or spaces.
 
 I first began by creating a variable called totalCount and set its value equal to zero.
 
+Next, I created a for loop to run through each character in the string to check for the vowels. Each loop run, the character would be strictly equalled to the vowel string character using if statements. Everytime it would make a match to the if statement, the totalCount would increase by 1. At the end of the function, I returned the variable containing the totalCount.
+
+```javascript
+function getCount(str) {
+  var totalCount = 0;
+  
+  for (var i = 0; i < str.length;i++){
+    if (str[i] === "a") {
+      totalCount += 1;
+    } else if (str[i] === "e"){
+      totalCount += 1;
+    } else if (str[i] === "i"){
+      totalCount += 1;
+    } else if (str[i] === "o"){
+      totalCount += 1;
+    } else if (str[i] === "u"){
+      totalCount+=1;
+    }
+  }
+  
+  return totalCount;
+}
+```
 
 ## Key Learnings
 
