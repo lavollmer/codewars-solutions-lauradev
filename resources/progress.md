@@ -38,10 +38,10 @@
   - Approach: Reviewed how to change a string to a number, and then change to binary representation.
   - Reflections: Use method `Number()` to change a string to a number, use `.toString(2)` to change a number data type to binary representation by specifying the base of 2 (binary).
 
-- **[PROBLEM NAME](url)**  
-  - Time Spent: 
-  - Approach: 
-  - Reflections: 
+- **[Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3/train/javascript)**  
+  - Time Spent: 5 minutes
+  - Approach: Create a global variable to hold the count and use a for loop to check each character of the string word
+  - Reflections: It reinforced my knowledge of for loops.
 
 - **[PROBLEM NAME](url)**  
   - Time Spent: 
