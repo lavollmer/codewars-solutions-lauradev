@@ -16,10 +16,15 @@ Breakdown of question:
 2. Returns an output of items without any elements with the same value next to each other or preserving original order
 3. Based on example, it is case sensitive
 
-Thought Process:
+First Initial Thought Process:
 1. If a string, delete the doubles of characters (case sensitive), return an array of the separate characters
 2. If an array of numbers, return an array of numbers removing double numbers
 3. Edge cases? They don't give an example for zeros or special characters
+
+Solution by Laura Dev:
+1. Argument is called iterable, I want to check the typeof for the iterable
+2. Based on the typeof, I will put that through the appropriate for loop looking for duplicates
+3. I will return the answer in a array
 
 ## Solution
 
