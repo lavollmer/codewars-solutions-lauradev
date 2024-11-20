@@ -43,10 +43,10 @@
   - Approach: Create a global variable to hold the count and use a for loop to check each character of the string word
   - Reflections: It reinforced my knowledge of for loops.
 
-- **[PROBLEM NAME](url)**  
-  - Time Spent: 
-  - Approach: 
-  - Reflections: 
+- **[Final Student Grade]**  
+  - Time Spent: 5 minute
+  - Approach: if else statements to match requirements
+  - Reflections: There was a bug in the codewars 
 
 - **[PROBLEM NAME](url)**  
   - Time Spent: 
