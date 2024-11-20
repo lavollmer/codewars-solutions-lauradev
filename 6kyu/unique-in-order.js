@@ -6,7 +6,7 @@ var uniqueInOrder=function(iterable){
     
     let result = [iterable[0]];
     
-    for (var i = 0; i < iterable.length; i++){
+    for (var i = 1; i < iterable.length; i++){
       
       if (iterable[i] !== iterable[i - 1]){
         result.push(iterable[i]);

@@ -22,14 +22,40 @@ First Initial Thought Process:
 3. Edge cases? They don't give an example for zeros or special characters
 
 Solution by Laura Dev:
-1. Argument is called iterable, I want to check the typeof for the iterable
-2. Based on the typeof, I will put that through the appropriate for loop looking for duplicates
-3. I will return the answer in a array
+1. Check the length of the iterable so that it is not zero, if it is return the empty array
+
+2. Create a result variable to hold the first character in the array
+
+3.Use a for loop to go through the array, if the index of the iterable doesn't equal the one prior then add it to the new result array. Key is to start at the second index in the for loop array.
+
+4. Return the result
 
 ## Solution
 
+```javascript
+var uniqueInOrder=function(iterable){
+
+    if (iterable.length === 0){
+      return [];
+    }
+    
+    let result = [iterable[0]];
+    
+    for (var i = 1; i < iterable.length; i++){
+      
+      if (iterable[i] !== iterable[i - 1]){
+        result.push(iterable[i]);
+      }
+    }
+  
+    return result;
+  }
+  ```
 
 
 ## Key Learnings
 
 
+1. Check for edge cases, in this one it would involve the array being empty
+2. Use a for loop to check the indexed character prior to the current one and if they don't match, add to a new array
+3. Start the new array with the current 1st character from the iterable variable
