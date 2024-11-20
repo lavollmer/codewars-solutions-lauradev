@@ -54,10 +54,10 @@
   - Reflections: 
 
 ### 6kyu:
-- **[PROBLEM NAME](url)**  
-  - Time Spent: 
-  - Approach: 
-  - Reflections: 
+- **[Unique in Order]**  
+  - Time Spent: 10 minutes
+  - Approach: Use a for loop to check the before and after characters in the array
+  - Reflections: Check for edge cases, create a variable to hold the result with the first character already being put in the array 
 
 ### 5kyu:
 - **[PROBLEM NAME](url)**  
